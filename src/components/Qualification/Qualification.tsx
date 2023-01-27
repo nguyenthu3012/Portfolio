@@ -115,7 +115,7 @@ const Qualification = (props: Props) => {
               <div>
                 <h3 className="qualification__title">Odoo Developer</h3>
                 <span className="qualification__subtitle">
-                  Completed - Studying
+                  Completed - Working
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>2021 - 2022

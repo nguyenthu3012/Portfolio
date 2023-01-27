@@ -1,5 +1,4 @@
 
-import work1 from "../../assets/work1.jpg";
 import movie from "../../assets/movie.jpeg";
 import supermarket from "../../assets/supermarket.jpeg";
 import wordle from "../../assets/wordle.jpeg";
