@@ -10,6 +10,7 @@ type WorkImages = {
   img: any;
   name: string;
   category: string;
+  link: string
 }
 
 const Portfolio = () => {
@@ -86,9 +87,9 @@ const Portfolio = () => {
                 className='hoverLayer'
               >
                 <div className='workWrap'>
-                  <h4>App</h4>
+                  <h4>{work.name}</h4>
                   <div className='workWrap__icon'>
-                  <motion.a href='#'
+                  <motion.a href={`${work.link}`}
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 1.1] }}
                     transition={{ duration: 0.3 }}

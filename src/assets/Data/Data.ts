@@ -1,53 +1,59 @@
 
 import work1 from "../../assets/work1.jpg";
-import work2 from "../../assets/work2.jpg";
-import work3 from "../../assets/work3.jpg";
-import work4 from "../../assets/work4.jpg";
-import work5 from "../../assets/work5.jpg";
+import movie from "../../assets/movie.jpeg";
+import supermarket from "../../assets/supermarket.jpeg";
+import wordle from "../../assets/wordle.jpeg";
+import shoesshop from "../../assets/shoesshop.png";
 import rental from "../../assets/rental.jpeg";
+import work6 from "../../assets/work1.jpg";
 
 
 export const workImages = [
   {
     id: 1,
-    img: work1,
-    name: "project 1",
-    category: "web"
+    img: movie,
+    name: "Netflix Clone",
+    category: "react js",
+    link:''
   },
   {
     id: 2,
-    img: work2,
-    name: "project 2",
-    category: "web"
+    img: supermarket,
+    name: "Supermarket",
+    category: "react js",
+    link:'https://github.com/MinhThu2507/Convenience-supermarket.git'
   },
   {
     id: 3,
-    img: work3,
-    name: "project 3",
-    category: "react js"
+    img: wordle,
+    name: "Wordle",
+    category: "typescript",
+    link:'https://github.com/MinhThu2507/Wordle.git'
   },
   {
     id: 4,
-    img: work4,
-    name: "project 4",
-    category: "react js"
+    img: shoesshop,
+    name: "Shoes Shop",
+    category: "react js",
+    link:'https://github.com/Killasneverdie/capstone-final.git'
   },
   {
     id: 5,
-    img: work5,
-    name: "project 5",
-    category: 'typescript'
+    img: rental,
+    name: "Air Bnb",
+    category: 'typescript',
+    link:'https://github.com/Killasneverdie/Final-Project-Typescript.git'
   },
   {
     id: 6,
-    img: rental,
-    name: "project 6",
-    category: "portfolio",
-    link: ''
+    img: work6,
+    name: "Portfolio",
+    category: "typescript",
+    link: 'https://github.com/MinhThu2507/Portfolio.git'
   }
 ]
 
 
 export const workNavs = [
-  "All", "React JS", "Typescript", "Portfolio"
+  "All", "React JS", "Typescript"
 ]
